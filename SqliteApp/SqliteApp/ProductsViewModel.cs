@@ -88,6 +88,5 @@ namespace SqliteApp
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-
     }
 }

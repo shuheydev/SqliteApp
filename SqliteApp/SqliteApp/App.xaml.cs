@@ -16,24 +16,6 @@ namespace SqliteApp
             {
                 BindingContext = new ProductsViewModel(productsRepository),
             };
-
-//            string dbPath = string.Empty;
-//            switch (Device.RuntimePlatform)
-//            {
-//                case Device.iOS:
-//                    dbPath = Path.Combine(Environment.GetFolderPath
-//                                (Environment.SpecialFolder.MyDocuments), "..", "Library", "products.db");
-//                    break;
-//                case Device.Android:
-//                    dbPath = Path.Combine(System.Environment.GetFolderPath
-//                (System.Environment.SpecialFolder.Personal), "productsDB.db");
-//\                    break;
-//                case Device.UWP:
-//                    //
-//                    break;
-//            }
-//            productsRepository = new ProductsRepository(dbPath);
-
         }
 
         protected override void OnStart()
